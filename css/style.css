@@ -15,6 +15,60 @@ body{
     text-align: center;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------------
+    Header
+----------- */
+
+.logo{
+    margin: 20px 250px 10px 10px;
+
+}
+
+.header-list{
+    display: flex;
+    margin: auto;
+}
+
+.header-item{
+    padding: 50px 50px 50px 0;
+    color: black;
+    font-size: 21px;
+}
+
+.header-item>a{
+    color: black;
+}
+
+.header-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto auto 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.header-subtitle{
+    font-size: 24px;
+    margin: 30px auto 0;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.hero-image{
+    position: relative;
+}
+
 /* -------------
     About
 ----------- */
@@ -36,17 +90,21 @@ body{
 }
 
 .about-textline03{
-    margin: 40px;
+    margin: 10px;
 }
 
 .about-textline04{
-    margin: 80px;
+    margin: 40px;
 }
 
 .about-img{
-    width: 25%;
+    max-width: 100%;
     display: flex;
-    margin: 60px;
+    margin: 60px 0;
+}
+
+.wrapper{
+    max-width: 1280px;
 }
 
 
@@ -65,7 +123,7 @@ Course
 }
 
 .course-textline02{
-    margin: 60px;
+    margin: 10px auto 60px;
 }
 
 .contents{
@@ -76,6 +134,23 @@ Course
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.bokujo{
+    width: 95%;
+}
+
+.teacher{
+    width: 85%;
+    margin: 0 0 0 115px;
+}
+
+.food{
+    width: 94.5%;
+}
+
+.background{
+    background-color: gray;
 }
 
 .contents-txt{
@@ -113,9 +188,21 @@ Course
 }
 
 .news{
-    width: 33.33333%;
     margin: 30px;
     display: flex;
+    box-sizing: border-box;
+    padding: 60px 30px 30px 30px;
+}
+
+.date{
+    margin: 30px 45px 24px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.text{
+    text-align: left;
+    margin: 24px 45px 60px;
 }
 
 .btn{
@@ -123,7 +210,7 @@ Course
     width: 300px;
     height: 18px;
     margin: auto;
-    padding: 60px 0;
+    padding: 20px 0;
     background-color: #ffd61a;
     color: #fff;
     font-size: 18px;
@@ -133,58 +220,19 @@ Course
     Access
 ---------- */
 
+.map{
+    margin: 60px auto;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.access-wrapper{
+    background-color: #gray;
+}
 .access-info{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.profile{
-    padding: 80px 0;
-}
-
-.profile-wapper{
-    width: 560px;
-    margin: auto;
-}
-
-.profile__title{
-    margin: 0 0 40px;
-    font-size: 2.4rem;
-    font-weight: bold;
-}
-
-.profile__eyecatch{
-    margin: 0 0 24px;
-}
-
-.profile__name{
-    margin: 0 0 40px;
-    font-size: 2.4rem;
-}
-
-.profile__text{
-    line-height: 2;
-    text-align: justify;
-    text-align: inter-deograph;
-}
-
-/* -------------
-    Work
------------ */
 
 
