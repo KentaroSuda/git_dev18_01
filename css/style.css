@@ -1,238 +1,80 @@
 /* ここから下に記載していく */
 @charset "utf-8";
 
-html{
-    font-size: 16px; 
-}
-
-body{
-    color: #333333;
-    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
-    font-size: 16px;
-}
-
 .text-center{
     text-align: center;
 }
 
-img{
+.img{
     max-width: 100%;
-    height: auto;
 }
 
-/* -------------
-    Header
------------ */
-
-.logo{
-    margin: 20px 250px 10px 10px;
-
-}
-
-.header-list{
-    display: flex;
-    margin: auto;
-}
-
-.header-item{
-    padding: 50px 50px 50px 0;
+/* ------------
+    header
+------------ */
+.header{
+    font-size: 64px;
+    font-weight: bold;
     color: black;
-    font-size: 21px;
-}
-
-.header-item>a{
-    color: black;
-}
-
-.header-title{
-    font-size: 30px;
-    font-weight: bold;
-    margin: auto auto 30px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%,-50%,0);
-}
-
-.header-subtitle{
-    font-size: 24px;
-    margin: 30px auto 0;
-    color: white;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate3d(-50%,-50%,0);
-}
-
-.hero-image{
-    position: relative;
-}
-
-/* -------------
-    About
------------ */
-
-.about-title{
-    font-size: 24px;
-    color: #ffd61a;
-    margin: 60px 30px auto;
-    font-weight: bold;
-}
-
-.about-textline01{
-    font-size: 18px;
-    margin: 30px;
-}
-
-.about-textline02{
-    margin: 60px;
-}
-
-.about-textline03{
-    margin: 10px;
-}
-
-.about-textline04{
-    margin: 40px;
-}
-
-.about-img{
-    max-width: 100%;
-    display: flex;
-    margin: 60px 0;
-}
-
-.wrapper{
-    max-width: 1280px;
-}
-
-
-/* -----------------
-Course
-------------------- */
-
-.course-title{
-    margin: 30px;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.course-textline01{
-    margin: 10px;
-}
-
-.course-textline02{
-    margin: 10px auto 60px;
-}
-
-.contents{
-    display: flex;
-}
-
-.contents-img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.bokujo{
-    width: 95%;
-}
-
-.teacher{
-    width: 85%;
-    margin: 0 0 0 115px;
-}
-
-.food{
-    width: 94.5%;
-}
-
-.background{
-    background-color: gray;
-}
-
-.contents-txt{
-    flex: 1;
-}
-
-.img-exp01{
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 120px;
-    margin-bottom: 40px;
-}
-
-.img-exp01-1{
-    margin-bottom: 120px;
-    margin-left: 50px;
-    width: 480px;
-    text-align: justify;
-}
-
-/* -------------
-     News
---------------- */
-
-.news-title{
-    font-size: 24px;
-    color: #ffd61a;
-    margin: 60px 30px auto;
-    font-weight: bold;
-}
-
-.about-news{
-    font-size: 18px;
-    margin: 30px;
-}
-
-.news{
-    margin: 30px;
-    display: flex;
-    box-sizing: border-box;
-    padding: 60px 30px 30px 30px;
-}
-
-.date{
-    margin: 30px 45px 24px;
-    text-align: left;
-    max-width: 300px;
-}
-
-.text{
-    text-align: left;
-    margin: 24px 45px 60px;
-}
-
-.btn{
-    display: block;
-    width: 300px;
-    height: 18px;
-    margin: auto;
-    padding: 20px 0;
-    background-color: #ffd61a;
-    color: #fff;
-    font-size: 18px;
-}
-
-/* ---------- 
-    Access
----------- */
-
-.map{
-    margin: 60px auto;
+    background-color: white;
     width: 100%;
+    margin: 20px auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.subtitle{
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    width: 100%;
+    margin: 20px auto;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.btn1{
+    /* display: block; */
+    width: 650px;
+    margin: 100px auto 10px;
+    padding: 21px 0;
+    background-color: #1ab1ff;
+    color: #fff;
+    font-size: 30px;
+}
+
+.sentakushi{
+    display: flex;
     text-align: center;
-    
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 0;
 }
 
-.access-wrapper{
-    background-color: #gray;
-}
-.access-info{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.btn2{
+    /* display: block; */
+    width: 200px;
+    margin: 100px 50px;
+    box-sizing: border-box;
+    padding: 21px 0;
+    background-color:gray;
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 0;
 }
 
+.kekka{
+        /* display: block; */
+        width: 400px;
+        margin: 20px auto;
+        box-sizing: border-box;
+        padding: 0 0;
+        background-color:red;
+        color: red;
+        font-size: 15px;
+}
 
